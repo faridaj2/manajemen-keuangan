@@ -6,18 +6,30 @@
             Keuangan
         </span>
     </a>
+    
     <div class="side-nav__devider my-6"></div>
     <ul>
         
         <li>
-            <a href="javascript:;" class="side-menu side-menu--active">
+            <button wire:click="$emit('dashboard')" href="javascript:;" class="w-full side-menu side-menu--active">
                 <div class="side-menu__icon">
                     <i data-lucide="home"></i>
                 </div>
                 <div class="side-menu__title">
                     Dashboard
                 </div>
-            </a>
+            </button>
+        </li>
+
+        <li>
+            <button wire:click="$emit('transaksi')" href="javascript:;" class="w-full side-menu">
+                <div class="side-menu__icon">
+                    <i data-lucide="home"></i>
+                </div>
+                <div class="side-menu__title">
+                    Jenis Transaksi
+                </div>
+            </button>
         </li>
 
         <li>

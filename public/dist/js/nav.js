@@ -9,6 +9,7 @@ sideMenu.forEach( e => {
         if(e.parentElement.parentElement.previousElementSibling.classList.contains('side-menu--open')){
             e.parentElement.parentElement.previousElementSibling.classList.add('side-menu--active');
         }
+        console.log(e);
         
     });
 });

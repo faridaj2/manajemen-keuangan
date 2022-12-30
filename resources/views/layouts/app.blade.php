@@ -1,13 +1,5 @@
 <!DOCTYPE html>
-<!--
-Template Name: Midone - HTML Admin Dashboard Template
-Author: Left4code
-Website: http://www.left4code.com/
-Contact: muhammadrizki@left4code.com
-Purchase: https://themeforest.net/user/left4code/portfolio
-Renew Support: https://themeforest.net/user/left4code/portfolio
-License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
--->
+
 <html lang="en" class="light">
 <!-- BEGIN: Head -->
 
@@ -35,6 +27,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
 <body class="py-5">
     
+    
     <!-- BEGIN: Mobile Menu -->
     
     <livewire:nav.mobile />
@@ -49,7 +42,15 @@ License: You must have a valid license purchased only from themeforest(the above
         <livewire:app />
         {{-- End Content --}}
     </div>
-    <!-- BEGIN: Dark Mode Switcher-->
+    
+
+
+
+
+
+
+
+    {{-- <!-- BEGIN: Dark Mode Switcher-->
     <div data-url="http://rubick.left4code.com/page/side-menu/dark/dashboard-overview-1"
         class="dark-mode-switcher cursor-pointer shadow-md fixed bottom-0 right-0 box border rounded-full w-40 h-12 flex items-center justify-center z-50 mb-10 mr-10">
         <div class="mr-4 text-slate-600 dark:text-slate-200">Dark Mode</div>
@@ -71,7 +72,7 @@ License: You must have a valid license purchased only from themeforest(the above
         <a href="http://rubick.left4code.com?color_scheme=theme-4"
             class="block w-8 h-8 cursor-pointer bg-indigo-900 rounded-full border-4 hover:border-slate-200 border-white dark:border-darkmode-600"></a>
     </div>
-    <!-- END: Main Color Switcher-->
+    <!-- END: Main Color Switcher--> --}}
 
     <!-- BEGIN: JS Assets-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
@@ -84,7 +85,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <script src="{{ asset('dist/js/nav.js') }}"></script>
      
     <!-- END: JS Assets-->
-
+    @livewireScripts
 </body>
 
 </html>
