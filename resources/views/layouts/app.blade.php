@@ -18,6 +18,7 @@
     <!-- BEGIN: CSS Assets-->
     <link rel="stylesheet" href="{{ asset('dist/css/app.css') }}" />
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <script src="//unpkg.com/alpinejs" defer></script>
     
     <!-- END: CSS Assets-->
     
@@ -75,13 +76,13 @@
     <!-- END: Main Color Switcher--> --}}
 
     <!-- BEGIN: JS Assets-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+{{--     
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcUcow5QHjitBVOfkTdy44l7jnaoFzW1k&libraries=places">
-    </script>
+    </script> --}}
     <script src="{{ asset('dist/js/app.js') }}"></script>
-    <script src="{{ asset('dist/js/map.js') }}"></script>
+    {{-- <script src="{{ asset('dist/js/map.js') }}"></script> --}}
     <script src="{{ asset('dist/js/nav.js') }}"></script>
      
     <!-- END: JS Assets-->

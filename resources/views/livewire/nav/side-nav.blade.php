@@ -22,12 +22,33 @@
         </li>
 
         <li>
-            <button wire:click="$emit('transaksi')" href="javascript:;" class="w-full side-menu">
+            <button wire:click="$emit('kategori')" href="javascript:;" class="w-full side-menu">
                 <div class="side-menu__icon">
-                    <i data-lucide="home"></i>
+                    <i data-lucide="align-horizontal-justify-start"></i>
                 </div>
                 <div class="side-menu__title">
-                    Jenis Transaksi
+                    Data Kategori
+                </div>
+            </button>
+        </li>
+
+        <li>
+            <button wire:click="$emit('transaksi')" href="javascript:;" class="w-full side-menu">
+                <div class="side-menu__icon">
+                    <i data-lucide="bitcoin"></i>
+                </div>
+                <div class="side-menu__title">
+                    Transaksi
+                </div>
+            </button>
+        </li>
+        <li>
+            <button wire:click="$emit('laporan')" href="javascript:;" class="w-full side-menu">
+                <div class="side-menu__icon">
+                    <i data-lucide="activity"></i>
+                </div>
+                <div class="side-menu__title">
+                    Laporan
                 </div>
             </button>
         </li>

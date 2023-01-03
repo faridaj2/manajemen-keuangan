@@ -3,7 +3,9 @@
     <livewire:top-canvas>
     
     <!-- END: Top Bar -->
+    
     <livewire:app-canvas/>
+    
     
 </div>
 <!-- END: Content -->
