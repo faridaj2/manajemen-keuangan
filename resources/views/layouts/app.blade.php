@@ -30,17 +30,22 @@
     
     
     <!-- BEGIN: Mobile Menu -->
+        
+        @include('layouts.nav.mobile')
     
-    <livewire:nav.mobile />
     <!-- END: Mobile Menu -->
     
     <div class="flex mt-[4.7rem] md:mt-0">
         <!-- BEGIN: Side Menu -->
-        <livewire:nav.side-nav />
+        @include('layouts.nav.side-nav')
         
         <!-- END: Side Menu -->
         <!-- BEGIN: Content -->
-        <livewire:app />
+        <div class="content">
+            @yield('content')
+        </div>
+        
+        
         {{-- End Content --}}
     </div>
     
