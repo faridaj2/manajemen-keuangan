@@ -17,4 +17,11 @@ class Dashboard extends BaseController
     public function kategori(){
         return view('dashboard.kategori');
     }
+    public function transaksi(){
+        return view('dashboard.transaksi');
+    }
+    public function laporan()
+    {
+        return view('dashboard.laporan');
+    }
 }

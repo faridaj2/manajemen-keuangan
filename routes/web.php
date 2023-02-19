@@ -21,5 +21,7 @@ Route::get('/', function () {
 Route::controller(Dashboard::class)->middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])->group(function () {
     Route::get('/dashboard', 'dashboard')->name('dashboard');
     Route::get('/dashboard/kategori', 'kategori')->name('kategori');
+    Route::get('/dashboard/transaksi', 'transaksi')->name('transaksi');
+    Route::get('/dashboard/laporan', 'laporan')->name('laporan');
 
 });

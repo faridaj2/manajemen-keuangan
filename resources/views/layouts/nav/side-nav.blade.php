@@ -32,7 +32,7 @@
         </li>
 
         <li>
-            <a  href="javascript:;" class="w-full side-menu">
+            <a  href="{{ route('transaksi') }}" class="w-full side-menu {{ (Route::currentRouteName() == 'transaksi') ? 'side-menu--active' : '' }}">
                 <div class="side-menu__icon">
                     <i data-lucide="bitcoin"></i>
                 </div>
@@ -42,7 +42,7 @@
             </a>
         </li>
         <li>
-            <a  href="javascript:;" class="w-full side-menu">
+            <a  href="{{ route('laporan') }}" class="w-full side-menu {{ (Route::currentRouteName() == 'laporan') ? 'side-menu--active' : '' }}">
                 <div class="side-menu__icon">
                     <i data-lucide="activity"></i>
                 </div>

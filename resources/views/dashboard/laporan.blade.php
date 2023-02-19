@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
 <div>
-    Halaman Transaksi
+    Halaman Laporan
 </div>
 @endSection
