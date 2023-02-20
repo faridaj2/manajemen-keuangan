@@ -1,4 +1,4 @@
 @extends('layouts.app')
 @section('content')
-    @livewire('kategori.kategori')
+    @livewire('kategori')
 @endsection
